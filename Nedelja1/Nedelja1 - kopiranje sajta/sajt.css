@@ -1,0 +1,134 @@
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    display:flex;
+  }
+  header * {
+    display: inline;
+  }
+  header li {
+    margin: 20px;
+    text-decoration: none;
+    color: black;  
+  }
+  header li a{
+    text-decoration: none;
+    color: black;
+  }
+
+  body {
+    padding: 30px;
+  }
+
+ .slike{
+    border-radius: 100%;
+    height:150%;
+    width:50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+ }
+
+  #prviDiv {
+      background-image: url(https://jooinn.com/images/night-city-40.jpg);
+      color:white;
+      height:200px;
+      padding-top:100px;
+
+  }
+
+  #drugiDiv{
+        border-radius: 10px;
+        height:10%;
+        width:20%;
+        float:left;
+        clear:left,right;
+        margin-right: 40px;
+        padding-left: 120px;
+        padding-top:50px;
+        text-align: center;
+        background-color: white;
+
+      }
+
+   #treciDiv{
+        border-radius: 10px;
+        height:10%;
+        width:20%;
+        float:right;
+        clear:left,right;
+        margin-left: 40px;
+        padding-right: 120px;
+        padding-top:50px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color: white;
+      }
+  
+  #cetvrtiDiv{
+        padding-top: 10px;
+        height:300px;
+        background-color: teal;
+     }
+  
+  h1, h2{
+      text-align:center ;
+  }
+
+  h3{
+    text-align:center ;
+    color:white;
+  }
+
+  button{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: teal;
+    border:2px solid teal;
+    background-color: transparent;
+  }
+
+  #sendBtn{
+    color: white;
+    border:2px solid white;
+    font-size: 10px;
+    margin-top: 20px;
+   
+  }
+
+  input{
+    display:inline-block;
+    width:38%;
+    border-radius: 10px;
+    border-color:white;
+    
+  }
+
+  Form{
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:20px;
+    font-family: sans-serif;   
+    color:white; 
+  }
+
+  #lastInput{
+    height:50px;
+    width:80%;
+    
+  }
+ 
+
+  
