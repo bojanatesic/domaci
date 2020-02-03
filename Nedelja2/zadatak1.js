@@ -1,0 +1,14 @@
+var a=6;
+var b=4;
+var zbir= a+b;
+var razlika= a-b;
+var proizvod = a*b;
+var kolicnik= a/b;
+var ostatak= a%b;
+var stepen = Math.pow(a,b);
+console.log (`Zbir je ${zbir}`);
+console.log (`Razlika je ${razlika}`);
+console.log (`Proizvod je ${proizvod}`);
+console.log (`Kolicnik je ${kolicnik}`);
+console.log (`Ostatak pri deljenju je ${ostatak}`);
+console.log (`Stepen je ${stepen}`);
