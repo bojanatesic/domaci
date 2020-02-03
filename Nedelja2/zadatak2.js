@@ -1,5 +1,5 @@
-var cena = 100;
-var novac = 200;
+let cena = 100;
+let novac = 200;
 if (novac<cena){
     console.log ("Nemate dovoljno novca");
     console.log (`Trenutno stanje je ${novac}`);
