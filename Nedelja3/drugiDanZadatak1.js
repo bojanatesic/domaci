@@ -8,3 +8,10 @@ function najveciBroj(broj1, broj2, broj3) {
 }
 let maksimum = najveciBroj(4, 8, 5)
 console.log(maksimum)
+
+// function najveciBroj(broj1, broj2, broj3) {
+//     return Math.max(broj1,broj2,broj3);
+// }
+// let maksimum = najveciBroj(4, 8, 5)
+// console.log(maksimum)
+
