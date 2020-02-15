@@ -37,12 +37,11 @@ btnOrderNow2.addEventListener('click', (e) => {
 })
 
 function poruka() {
-    brojPica = document.getElementById("message").innerHTML = `Naručili ste [${count}] pica ` + `[${getNowDateInFormat()} ${getNowTimeInFormat()}]`
-
+    document.getElementById("message").innerHTML = `Naručili ste [${count}] pica ` + `[${getNowDateInFormat()} ${getNowTimeInFormat()}]`
 }
 
 function greska() {
-    pogresno = document.getElementById("message").innerHTML = `Greška! Morate izabrati picu! ` + `[${getNowDateInFormat()} ${getNowTimeInFormat()}]`
+    document.getElementById("message").innerHTML = `Greška! Morate izabrati picu! ` + `[${getNowDateInFormat()} ${getNowTimeInFormat()}]`
 }
 
 
