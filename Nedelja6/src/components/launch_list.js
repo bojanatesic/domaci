@@ -8,6 +8,7 @@ const LaunchList = () => {
     getPastLaunches().then(response => {
         // let data=response.data;
         let { data } = response;
+        console.log(response)
 
         // const launch=Launch()
         data.forEach(element => {
