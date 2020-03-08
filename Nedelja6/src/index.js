@@ -1,17 +1,21 @@
 import LaunchList from "./components/launch_list";
 import HeaderInfo from "./components/header2";
-// import selectLaunchYear from "./components/godina_lansiranja";
-
+import selectLaunchYear from "./components/select_year";
 
 const app=document.querySelector('#app');
 
 const header=document.createElement('header');
-const headerList=HeaderInfo()
-header.appendChild(headerList)
-const launch_year=selectLaunchYear()
+const companyInfoHeader=HeaderInfo()
+header.appendChild(companyInfoHeader)
+
 const filters=document.createElement('section');
+const select=selectLaunchYear()
+filters.appendChild(select)
+
 const launch_list=LaunchList();
 
 const footer=document.createElement('footer');
+footer.innerHTML=`Created by IT Bootcamp`
 
-app.append(headerList,launch_year,filters,launch_list,footer);
+app.append(header,filters,launch_list,footer);
+export default filters
