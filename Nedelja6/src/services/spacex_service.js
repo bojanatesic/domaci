@@ -5,7 +5,7 @@ export const getPastLaunches=()=>{
     return axios.get(`${SPACEX_BASE_URL}/launches/past`);
 }
 
-export const getCompanyInfo=()=>{
+export const getInfo=()=>{
     return axios.get(`${SPACEX_BASE_URL}/info`);
+   
 }
-
