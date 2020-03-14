@@ -1,0 +1,11 @@
+.forma{
+    padding-top: 100px;
+    text-align: center;
+    }
+
+
+button{
+    border-radius: 35%;
+    background-color: grey;
+    border-color: black;
+}
